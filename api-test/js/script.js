@@ -22,7 +22,7 @@ $("form").on("submit", getWeather);
 async function getCityWeather(e) {
 	e.preventDefault();
 
-	const userInput = $('button').val();
+	const userInput = $(this).val();
 	const apiKey = "9668a116beecace6125596e0cd70a7da";
 	const url = 'http://api.openweathermap.org/data/2.5/weather?q='+ userInput + '&units=imperial' + '&APPID='+ apiKey;
 
@@ -37,8 +37,6 @@ async function getCityWeather(e) {
 $("#sj").on("click", getCityWeather);
 $("#sf").on("click", getCityWeather);
 $("#oak").on("click", getCityWeather);
-
-
 
 
 
