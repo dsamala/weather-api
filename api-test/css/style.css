@@ -1,6 +1,6 @@
 * {
     padding: 10;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Karla;
 }
 
 h1 {
@@ -25,4 +25,13 @@ h1 {
 
 .info {
     padding: 50px;
+}
+
+.rinfo {
+    margin-left: 50px;
+}
+
+.cities h4{
+    display: flex;
+    justify-content: center ;
 }
